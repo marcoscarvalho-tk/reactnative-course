@@ -1,10 +1,10 @@
-#################### Pacotes e programas ################
+############################## Pacotes e programas ###########################
 pacotes e programas necessários para criação do app
 -isntalar o Node.js
 ~$ sudo apt install nodejs
 -Istalar VS Code
 
--Istalar o Expo
+-Istalar o **Expo**
 ~$ npm istall -g expo-cli
 
 -Dentro do diretório do app para criar projeto Expo
@@ -33,3 +33,10 @@ RECURSOS:
 REGRAS:
 -Google
 -Apple 
+
+################################# URLs endpoints ###############################
+
+Spot API URL	                                   Spot Test Network URL
+https://api.binance.com/api	               https://testnet.binance.vision/api
+wss://stream.binance.com:9443/ws	       wss://testnet.binance.vision/ws
+wss://stream.binance.com:9443/stream	       wss://testnet.binance.vision/stream
