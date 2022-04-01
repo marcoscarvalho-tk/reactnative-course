@@ -1,4 +1,4 @@
-############################## Pacotes e programas ###########################
+###### Pacotes e programas ######
 pacotes e programas necessários para criação do app
 -isntalar o Node.js
 ~$ sudo apt install nodejs
@@ -16,17 +16,21 @@ pacotes e programas necessários para criação do app
  para iniciar a aplicação 
 ~$ npm (ou expo) start
 
--Pacote para Conexão em tempo real 
-~$ npm install react-use-websocket
 
-PACOTES:
+## PACOTES:
 -Expo: para criação do app
 -Axios: integração com web APIs Rest;
 -React Use Socket: itegração com streams;
 -EthersJS: itegração com blockchain ETH e BSC;
--React Native Elements: visual do app;
 
-RECURSOS:
+-React Native Elements: visual do app;
+~$ npm install react-native-elements
+ Docs: https://reactnativeelements.com/docs
+
+-Pacote para Conexão em tempo real 
+~$ npm install react-use-websocket
+
+## RECURSOS:
 -Binance Stream
 -Binance API
 
@@ -34,7 +38,9 @@ REGRAS:
 -Google
 -Apple 
 
-################################# URLs endpoints ###############################
+###### URLs endpoints ##############
+https://testnet.binance.vision/
+https://github.com/binance/binance-spot-api-docs/blob/master/web-socket-streams.md
 
 Spot API URL	                                   Spot Test Network URL
 https://api.binance.com/api	               https://testnet.binance.vision/api
